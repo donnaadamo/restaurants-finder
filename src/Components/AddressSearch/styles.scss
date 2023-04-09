@@ -1,0 +1,31 @@
+.addressearch {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  padding: 2rem;
+  justify-content: space-between;
+  font-size: 2rem;
+
+  img {
+    cursor: pointer;
+  }
+
+  &__title {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+
+  &__input {
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    min-width: 60vh;
+    font-size: 1.3rem;
+    cursor: auto;
+  }
+
+  &__input::placeholder {
+    color: $text-black-primary;
+  }
+}

@@ -1,0 +1,38 @@
+.home {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-gap: 1rem;
+  padding: 4rem;
+
+  &__left {
+    font-family: "Forum";
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    &__subtitle {
+      font-size: 4.375rem;
+    }
+
+    &__title {
+      font-size: 12.875rem;
+    }
+  }
+
+  &__right {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    &__button {
+      background-color: $button-primary-bg;
+      border: none;
+      border-radius: 146px;
+      font-family: "Corben-Bold";
+      font-size: 35px;
+      cursor: pointer;
+      padding: 1.5rem;
+    }
+  }
+}

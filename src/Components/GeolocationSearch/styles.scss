@@ -1,0 +1,19 @@
+.geolocationsearch {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  justify-content: space-between;
+  font-size: 2rem;
+
+  img {
+    cursor: pointer;
+  }
+
+  &__text {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}

@@ -1,0 +1,67 @@
+.review {
+  font-family: "Forum";
+  margin: 1rem;
+  background: #ffffff;
+  border: 1px solid #e243ef;
+  box-shadow: 0px 4px 4px $box-shadow;
+  border-radius: 77px;
+  padding: 2rem;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80vh;
+
+  ::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: $box-shadow;
+    box-shadow: 0 0 1px $input-shadow;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+
+    &__name {
+      font-size: 42px;
+    }
+
+    &__date {
+      font-size: 20px;
+      margin-bottom: 1rem;
+      color: grey;
+    }
+
+    &__rating {
+      font-size: 2.5rem;
+      img {
+        margin-right: 0.5rem;
+      }
+    }
+  }
+
+  &__body {
+    font-size: 20px;
+    margin-bottom: auto;
+    overflow-y: scroll;
+  }
+
+  &__buttons {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &__next,
+    &__back {
+      img {
+        cursor: pointer;
+      }
+    }
+  }
+}

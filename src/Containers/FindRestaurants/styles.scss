@@ -1,0 +1,26 @@
+.search {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-gap: 1rem;
+  font-family: "Forum";
+  padding: 2rem;
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &__title {
+      font-family: "Corben-Bold";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 60px;
+    }
+  }
+
+  &__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

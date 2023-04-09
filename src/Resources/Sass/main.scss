@@ -1,0 +1,14 @@
+@import "./colors.scss";
+
+/* Components */
+@import "../../Components/GeolocationSearch/styles.scss";
+@import "../../Components/AddressSearch/styles.scss";
+@import "../../Components/Card/styles.scss";
+@import "../../Components/RestaurantList/styles.scss";
+@import "../../Components/Header/styles.scss";
+@import "../../Components/Reviews/styles.scss";
+
+/* Containers */
+@import "../../Containers/Home/styles.scss";
+@import "../../Containers/FindRestaurants/styles.scss";
+@import "../../Containers/RestaurantView/styles.scss";

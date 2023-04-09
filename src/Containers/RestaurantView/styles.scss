@@ -1,0 +1,56 @@
+.view {
+  padding: 2rem;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__box {
+    background: $card-bg;
+    box-shadow: 0px 4px 4px $box-shadow;
+    border: solid 0.1rem $card-border;
+    border-radius: 77px;
+    padding: 3rem;
+    min-height: 60vh;
+
+    &__header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      font-family: "Corben-Regular";
+      font-size: 35px;
+
+      &__location {
+        display: flex;
+        flex-direction: row;
+
+        &__address {
+          color: $text-black-secondary;
+          margin-left: 0.5rem;
+        }
+      }
+
+      &__rating {
+        img {
+          margin-right: 0.5rem;
+        }
+      }
+    }
+
+    &__body {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      &__photo {
+        margin: 1rem;
+      }
+
+      &__error {
+        font-size: 2rem;
+        margin-top: 10%;
+      }
+    }
+  }
+}

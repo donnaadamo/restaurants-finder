@@ -1,0 +1,9 @@
+.header {
+  background: $header-bg;
+  border-bottom: solid 0.1rem $card-border;
+  padding: 0.5rem;
+
+  &__home {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Forum";
+  src: url(./Resources/Fonts/Forum.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Corben-Regular";
+  src: url(./Resources/Fonts/Corben-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Corben-Bold";
+  src: url(./Resources/Fonts/Corben-Bold.ttf);
+  font-weight: bold;
+}
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  overflow: auto;
+  height: 100%;
+  background-image: url("../public/background.png");
+  background-position: center center;
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: default;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app__content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
